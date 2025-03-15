@@ -1,0 +1,36 @@
+.linksContainer {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link {
+    color: #999999;
+    transition: all 0.3s ease-in-out;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #FFB73B
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.navBarContainer {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    height: 5rem;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-inline: 10vw;
+}

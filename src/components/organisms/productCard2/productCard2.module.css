@@ -1,0 +1,74 @@
+.card3Container {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 16rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    background: #F7F7F7;
+    align-items: center;
+    color: #313131;
+    justify-content: space-between;
+}
+
+.imageCard2 {
+    width: 5rem;
+    height: auto;
+}
+
+.ButtonAndInfo2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: end;
+    gap: 1rem;
+}
+
+.infoContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.quantity {
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.nameAndQuantity{
+    display: flex;
+    flex-direction: column;
+}
+
+.name2 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.button2 {
+    width: 3rem;
+    height: auto;
+    position: relative;
+    transform: translateY(-0.1rem) translateX(0.2rem);
+}
+
+.buttonContainer2 {
+    display: flex;
+    border-radius: 0rem;
+    width: 3rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background: #FFB73B;
+}
