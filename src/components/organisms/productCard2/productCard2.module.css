@@ -13,8 +13,8 @@
 }
 
 .imageCard2 {
-    width: 5rem;
-    height: auto;
+    width: auto;
+    height: 100px;
 }
 
 .ButtonAndInfo2 {
@@ -39,7 +39,7 @@
     margin: 0;
 }
 
-.nameAndQuantity{
+.nameAndQuantity {
     display: flex;
     flex-direction: column;
 }
@@ -48,6 +48,11 @@
     font-size: 12px;
     font-weight: bold;
     margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .price {

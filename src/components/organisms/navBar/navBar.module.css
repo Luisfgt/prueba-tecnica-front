@@ -34,3 +34,17 @@
     left: 0;
     padding-inline: 10vw;
 }
+
+@media (min-width: 1284px) {
+    .navBarContainer {
+        padding-inline: 20vw;
+        
+    }
+}
+
+@media (min-width: 1920px) {
+    .navBarContainer {
+        padding-inline: 25vw;
+        
+    }
+}

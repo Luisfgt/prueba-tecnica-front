@@ -25,3 +25,35 @@
     grid-template-columns: repeat(auto-fill, minmax(192px, 1fr));
     gap: 1rem;
 }
+
+.background {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.667);
+}
+
+.closeElement {
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    cursor: pointer;
+}
+
+@media (min-width: 1284px) {
+    .AppContainer {
+        padding-inline: 20vw;
+
+    }
+}
+
+@media (min-width: 1920px) {
+    .AppContainer {
+        padding-inline: 25vw;
+    }
+}

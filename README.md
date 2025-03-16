@@ -17,3 +17,7 @@ Con este par de comando, correremos el proyecto.
 Existen dos vistas que podrás ver, la primera, "Artículos", que es donde veremos todos los productos, y la segunda, "Subida", donde podrás registrar un promocode con tu nombre y los dos últimos números de tu cédula.
 
 Al inicio del proyecto, te pedirá que ingreses tus datos de usuario, así podrás conseguir buenos descuentos. En caso de que no estés en el sistema, podrás registrarte y obtener los mejores precios.
+
+# Vistas
+
+Existen 3 vistas, la primera es la de artículos, donde se ven todos los productos, ahora, en vez de tener un vista "subida", que da precios especiales, se ha cambiado por un sistema de login y registro, para que cuando las personas que entren a la página, se registren y obtengan descuentos, en categorías específicas del sistema.

@@ -1,0 +1,86 @@
+.loginContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background: white;
+    color: #4A4A4A;
+    padding: 2rem;
+    gap: 1rem;
+    width: 25rem;
+}
+
+.logoAndTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.titleModal {
+    margin: 0;
+    font-size: 3rem;
+}
+
+span {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+
+.spanAndInput {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputContainer {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    background: #EDEDED;
+    padding-inline: 1rem;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    color: #7a7a7a;
+}
+
+input::placeholder {
+    color: #C8C8C8;
+}
+
+.spanAndInput {}
+
+.inputContainer {}
+
+.message {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+.register {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #FFB73B;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.buttomJoin {
+    background: #FFB73B;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    border-radius: 0rem;
+    font-size: 0.8rem;
+}
